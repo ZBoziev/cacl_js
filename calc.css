@@ -14,7 +14,13 @@ height: 640px;
 background-color: #17171C;
 }
 div{
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 width: 324px;
 height: 599px;
-
+}
+p {
+margin: 0px;
+color: white;
 }
