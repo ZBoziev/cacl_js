@@ -13,14 +13,17 @@ width: 364px;
 height: 640px;
 background-color: #17171C;
 }
-div{
-    margin: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-width: 324px;
-height: 599px;
-}
-p {
+.number1 {
 margin: 0px;
-color: white;
+color: #FFFFFF;
+width: 324px;
+font-size: 40px;
+/* display: flex; */
+}
+.number2 {
+color: #FFFFFF;
+width: 324px;
+font-size: 96px;
+margin-top: 16px;
+/* display: flex; */
 }
