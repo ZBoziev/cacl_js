@@ -3,68 +3,123 @@
 *::after {
     box-sizing: border-box;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    background-color: #ffffff;
-} 
-main{
-width: 364px;
-height: 640px;
-background-color: #17171C;
+
+.calculator {
+    width: 364px;
+    height: 640px;
+    background-color: #17171c;
+    color: white;
+    padding: 20px;
+    margin: 50px auto;
 }
-.number1 {
-margin: 0px;
-color: #FFFFFF;
-width: 324px;
-font-size: 40px;
-margin: 0 20px 0 20px;
-}
-.number2 {
-color: #FFFFFF;
-width: 324px;
-font-size: 96px;
-margin: 16px 20px 0 20px;
-}
-div{
+
+.calc {
     width: 324px;
-    margin: 16px 20px 0 20px;
+    height: 599px;
 }
-.reset{
-    background-color: #4E505F;
-    border-radius: 24px;
-    width: 153.33px;
-    height: 72px;
-    margin-left: 0;
-}
-.symbol{
-    color: #ffffff;
-    font-size: 32px;
+
+.operation {
+    width: 324px;
+    height: 47px;
+    font-size: 40px;
     margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
 }
-.sbutton{
-    background-color: #2E2F38;
-    border-radius: 24px;
+
+.result {
+    width: 324px;
+    height: 96px;
+    font-size: 96px;
+    margin: 0;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.but {
     width: 69px;
     height: 72px;
-    margin-left: 10px;
+    background-color: #2E2F38;
+    border-radius: 24px;
+    font-size: 32px;
 }
-.abutton{
+
+.buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.but.zero {
+    width: 238.33px;
+}
+
+.but.cl-blue {
     background-color: #4B5EFC;
-    border-radius: 24px;
-    width: 69px;
-    height: 72px;
-    margin-left: 10px;
 }
-.column1{
-    background-color: #2E2F38;
-    border-radius: 24px;
-    width: 69px;
-    height: 72px;
+
+.but.cl-grey {
+    background-color: #4E505F;
+    width: 153.33px;
 }
-.zero{
-    background-color: #2E2F38;
-    width: 238.33px;  
-    border-radius: 24px;
-    height: 72px;
+
+but:active {
+    filter: brightness(100%);
+}
+
+.but:hover {
+    filter: brightness(150%);
+}
+
+.row {
+    width: 324px;
+    margin-top: 12px;
+}
+
+.but.delete {
+    margin-left: 12px;
+}
+
+.but.division {
+    margin-left: 12px;
+}
+
+.but.eight {
+    margin-left: 12px;
+}
+
+.but.nine {
+    margin-left: 12px;
+}
+
+.but.multiply {
+    margin-left: 12px;
+}
+
+.but.five {
+    margin-left: 12px;
+}
+
+.but.six {
+    margin-left: 12px;
+}
+
+.but.minus {
+    margin-left: 12px;
+}
+
+.but.two {
+    margin-left: 12px;
+}
+
+.but.three {
+    margin-left: 12px;
+}
+
+.but.plus {
+    margin-left: 12px;
+}
+
+.but.equal {
+    margin-left: 12px;
 }
