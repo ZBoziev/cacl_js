@@ -3,9 +3,10 @@
 *::after {
     box-sizing: border-box;
 }
-/* body {
+body {
+   
     font-family: 'Work Sans', sans-serif;
-} */
+}
 
 .calculator {
     width: 364px;
@@ -27,6 +28,7 @@
     font-size: 40px;
     margin: 0;
     display: flex;
+    flex-grow: 1;
     flex-direction: row-reverse;
 }
 
@@ -37,6 +39,7 @@
     margin: 0;
     margin-top: 16px;
     display: flex;
+    flex-grow: 1;
     flex-direction: row-reverse;
 }
 
@@ -78,6 +81,7 @@ but:active {
 .row {
     width: 324px;
     margin-top: 12px;
+    display: flex;
 }
 
 .but.delete {

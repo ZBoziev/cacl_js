@@ -43,3 +43,4 @@
 // Calc('minus', 1, 2);
 // Calc('div', 1, 0)
 // Calc('multi', 1, 2)
+
